@@ -22,6 +22,12 @@ you will find the fils inside ./infrastructre/workstation and apply the terrafor
 * To add a new developper you need to go to terraform modules workstation and modify the main.tf file and add a line to locals like shown bellow, specify your machine name, machine type, the zone, tags you need for example ssh or http or both, your preferd OS image and your bucket name which should be unique.
 
 
+
+
+https://user-images.githubusercontent.com/62959061/229340280-1b1614f1-7140-4274-b8df-a177f1aecf0c.mov
+
+
+
 ![Creating another workstation](/g.gif)
 
 * After modfiying you need to apply the changes using:
