@@ -6,18 +6,22 @@ draft: false
 
 Once you're inside the git repo travel to helm chart for Grafana
 
-<br>
 
-  `$ cd helm_charts/grafana_chart` 
-<br>
+```
+ $ cd helm_charts/grafana_chart
+
+```
+
 ## install helm repo from codecentric 
-
-    - helm repo add grafana
-
+```
+ $ helm repo add grafana
+```
 ## install Grafana using helm chart
 
 We provided the chart values customized for our needs but you can make your changes as you wish.
 
 To proced the deployment of Grafana type in
+```
+ helm install Grafana grafana/grafana -f grafana_values.yaml
 
-    - helm install Grafana grafana/grafana -f grafana_values.yaml
+```
