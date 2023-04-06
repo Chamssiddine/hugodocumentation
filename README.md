@@ -1,4 +1,4 @@
-# Remote Dev Env Documentation made by hugo
+# Comprehensive Guide to My Remote Development Environment Project with Hugo
 I have prepared comprehensive documentation for my remote development environment project, which you can find on my [GitHub repository](https://github.com/Chamssiddine/remote-dev-env). This documentation will provide you with all the necessary information to get started with the project and make the most out of its features. 
 
 Feel free to check it out and let me know your feedback!
