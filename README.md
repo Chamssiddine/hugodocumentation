@@ -1,5 +1,9 @@
 # Remote Dev Env Documentation made by hugo
-This is the documentation i prepared for my project remote development environment you can find my [repo](https://github.com/Chamssiddine/remote-dev-env).
+I have prepared comprehensive documentation for my remote development environment project, which you can find on my [GitHub repository](https://github.com/Chamssiddine/remote-dev-env). This documentation will provide you with all the necessary information to get started with the project and make the most out of its features. 
+
+Feel free to check it out and let me know your feedback!
+[Live Demo](https://remotedevenv.chamssiddineabd.tech)
+
 
 ## Getting Started
 
@@ -27,4 +31,4 @@ $ hugo server
 
 ## Further Modification
 
-* Check the official documentation of the theme [HugoPaperMod](https://github.com/adityatelange/hugo-PaperMod)| 
+* Check the official documentation of the theme [HugoPaperMod](https://github.com/adityatelange/hugo-PaperMod).
