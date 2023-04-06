@@ -11,3 +11,13 @@ with SSO(single Sign-On) and much more
 
 ## First clone the git repo
 $ git clone https://github.com/Chamssiddine/remote-development-environment
+
+## Requirments
+
+* Terraform
+
+* GCP
+
+* Ansible
+
+You need to install Terraform on your Platform of choice, and get your gcp access and install ansible to run our playbooks.
