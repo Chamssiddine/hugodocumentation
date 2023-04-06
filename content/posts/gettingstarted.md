@@ -20,4 +20,8 @@ $ git clone https://github.com/Chamssiddine/remote-development-environment
 
 * Ansible
 
+<<<<<<< HEAD
 So you need to install Terraform on your Platform of choice, and get your gcp access and install ansible to run our playbooks
+=======
+You need to install Terraform on your Platform of choice, and get your gcp access and install ansible to run our playbooks.
+>>>>>>> ae5adade01d3e2075493af532e205c13df226e4d
