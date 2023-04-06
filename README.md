@@ -7,15 +7,15 @@ Feel free to check it out and let me know your feedback!
 
 ## Getting Started
 
-1. Install Hugo on your machine from the official [documentation](https://gohugo.io)
-2. Clone the repo
+1. Install Hugo on your machine by following the instructions in the official [documentation](https://gohugo.io).
+2. Clone the repository by running this command in your terminal:
 
 ```sh
-
-$ git clone https://github.com/Chamssiddine/hugodocumentation.git
+   $ git clone https://github.com/Chamssiddine/hugodocumentation.git
 
 ```
-3. Run this command to run the server
+3. Run the server by navigating to the project directory and running this command:
+
 
 ```sh
 
@@ -26,9 +26,7 @@ $ hugo server
 ```
 
 ## How to modify it to your needs
-
- To add modify | Posts go to content/posts
+To modify or add posts, navigate to the `content/posts` directory and make your changes there.
 
 ## Further Modification
-
-* Check the official documentation of the theme [HugoPaperMod](https://github.com/adityatelange/hugo-PaperMod).
+* For more information on customizing the project beyond just adding or modifying posts, check out the official documentation for the [HugoPaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
