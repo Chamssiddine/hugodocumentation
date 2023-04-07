@@ -25,7 +25,9 @@ Our project has a few requirements that you'll need to meet in order to get it u
 
 * Terraform : is an open-source infrastructure as code software tool, You can download Terraform from the official website at https://developer.hashicorp.com/terraform/downloads.
 
+
 * GCP : Our project uses Google Cloud Platform (GCP) as its cloud provider. You'll need to have a GCP account set up and create a new project before you can get started. If you don't have a GCP account, you can sign up for a free trial at https://cloud.google.com.
+
 
 * Ansible : is an open-source automation tool that allows you to automate the deployment and configuration of software and infrastructure. You can download Ansible from the official website at https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html.
 

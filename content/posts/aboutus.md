@@ -7,8 +7,6 @@ draft: false
 
 # Who Am I !
 
-I'm Cloud & DevOps enthusiast dedicated descipline Student 
-
 I am an enthusiastic student who is passionate about Cloud and DevOps. I am dedicated to honing my skills and expertise in this field, and I welcome you to review my portfolio to see my work and accomplishments.
 
 You can check my [portfolio](https://chamseddineabd.netlify.com)
