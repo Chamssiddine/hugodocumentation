@@ -4,22 +4,22 @@ date: 2023-01-14T14:56:27+01:00
 draft: false
 ---
 
-Once you're inside the git repo travel to helm chart for keycloak
-
-<br>
+1. Navigate to the Keycloak Helm Chart directory in your Git repo:
 
   `$ cd helm_charts/keycloak_chart` 
-<br>
-## install helm repo from codecentric 
+
+2. Add the Codecentric Helm repo:
+
 ```
  helm repo add codecentric 
 ```
 
-## install keycloak using helm chart
+3. Install Keycloak using the Helm Chart:
 
-We provided the chart values customized for our needs but you can make your changes as you wish.
+I have provided chart values that are customized for our needs, but you can make changes to suit your specific requirements. Use the following command to deploy Keycloak:
 
-To proced the deployment of keycloak type in
 ```
  helm install keycloak codecentric/keycloak -f keycloak_values.yaml
 ```
+
+That's it! Your Keycloak instance should now be up and running, you can access it with the Keycloak Service IP.

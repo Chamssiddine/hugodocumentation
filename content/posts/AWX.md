@@ -5,25 +5,26 @@ draft: false
 ---
 
 # How to install Awx using kubernetes operator
+To install AWX using Kubernetes Operator, follow these steps:
 
-## First thing you need to go in this directory 
- <br /> 
+1. Navigate to the awx-operator directory:
 
-`$ cd helm_charts/awx_chart/awx-operator`
- <br />   
-  <br />  
-## Second verify the content of
-<br />
-  <br />
+```bash
+$ cd helm_charts/awx_chart/awx-operator
+```
 
-    - kustomization.yaml 
-    - awx.yml 
-    
-- You can specify the version of awx operator in the first file
-- You can modify the specs of awx to your needs  <br /> <br /> <br />
-<br />
- <br />
-## Lastly run the kustomize command
- <br /> 
+2. Verify the content of the following files:
 
-`$ kustomize build . | kubectl apply -f -`
+- In kustomization.yaml, you can specify the version of AWX operator. 
+```
+ kustomization.yaml 
+```
+- In awx.yml, you can modify the specs of AWX to your needs.
+```
+ awx.yml 
+```
+
+3. Run the kustomize command to build the Kubernetes manifest and apply it:
+```
+$ kustomize build . | kubectl apply -f -
+```

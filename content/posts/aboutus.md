@@ -6,11 +6,11 @@ draft: false
 ---
 
 # Who Am I !
-<<<<<<< HEAD
+
 I'm Cloud & DevOps enthusiast dedicated descipline Student 
-=======
+
 I am an enthusiastic student who is passionate about Cloud and DevOps. I am dedicated to honing my skills and expertise in this field, and I welcome you to review my portfolio to see my work and accomplishments.
->>>>>>> ae5adade01d3e2075493af532e205c13df226e4d
+
 You can check my [portfolio](https://chamseddineabd.netlify.com)
 
 # Project Purpose
@@ -21,8 +21,6 @@ I created a remote development environment project to tackle the challenges pose
 ![thumbnail](/thumbnail.png)
 # Project Video
 @[video](/remotedevenv.mp4)
-<<<<<<< HEAD
 =======
+@[online](https://user-images.githubusercontent.com/62959061/229339823-0ffe29e0-6d53-4fce-87f3-a9386a8efe40.mp4)
 
-[online](https://user-images.githubusercontent.com/62959061/229339823-0ffe29e0-6d53-4fce-87f3-a9386a8efe40.mp4)
->>>>>>> ae5adade01d3e2075493af532e205c13df226e4d

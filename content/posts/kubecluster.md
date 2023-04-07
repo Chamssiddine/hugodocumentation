@@ -3,20 +3,35 @@ title: "Kubernetes Cluster"
 date: 2023-01-16T14:54:32+01:00
 draft: false
 ---
-Once you are inside the git repo travel to kubernetes terraform module
-<br>
 
-  `$ cd infrastructure/modules/kubernetes` 
-<br>
+## Introduction
 
-## Now run this command
-  `$ terraform apply` 
+Welcome to our guide on how to deploy our Kubernetes cluster using Terraform! In this guide, we'll walk you through the steps necessary to deploy our cluster and explore its features.
 
-<br>
+## Deploying the Kubernetes Cluster
+To deploy our Kubernetes cluster, you'll need to navigate to the kubernetes Terraform module by running the following command:
+```
+$ cd infrastructure/modules/kubernetes
+```
+Next, you'll need to apply the Terraform file using the following command:
 
-You can change the default variables inside variable.tf
+```yaml
+$ terraform apply
 
-## Congrats now you can explore our k8s cluster 
+```
+This will deploy the necessary infrastructure on your cloud provider (e.g. Google Cloud Platform) and provision the Kubernetes cluster.
 
+## Customizing the Kubernetes Cluster
+If you'd like to customize the Kubernetes cluster, you can modify the default variables in the variable.tf file. This file contains all the configurable variables for the Terraform module.
+
+Once you've made the necessary changes, you can re-run the terraform apply command to apply the changes to the Kubernetes cluster.
+
+
+## Exploring the Kubernetes Cluster
+Congratulations, you've successfully deployed the Kubernetes cluster! Now, you can explore the features of the cluster using tools like kubectl.
+
+There are many other commands you can use to explore and manage the Kubernetes cluster. We recommend checking out the official Kubernetes documentation for more information.
+
+That's it for this guide.
 
 <!-- type the variable asked for the kubernetes cluster -->

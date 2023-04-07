@@ -4,8 +4,7 @@ date: 2023-01-14T14:56:27+01:00
 draft: false
 ---
 
-Once you're inside the git repo travel to helm chart for Prometheus
-
+1. Navigate to the Prometheus chart directory:
 
 ```
 cd helm_charts/prometheus_chart
@@ -13,17 +12,16 @@ cd helm_charts/prometheus_chart
 ```
 
 
-## install helm repo from codecentric 
+2. Add the Prometheus Helm chart repository from prometheus-community:
+
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 ```
-## install Prometheus using helm chart
-
-We provided the chart values customized for our needs but you can make your changes as you wish.
-
-To proced the deployment of Prometheus type in
+3. Install Prometheus using the Helm chart. We provided the chart values customized for our needs, but you can make your changes as you wish. Specify the custom values file with -f flag:
 
 ```
 helm install prometheus prometheus-community/prometheus -f values.yaml
 
 ```
+
+This will deploy Prometheus in your Kubernetes cluster using the specified configuration in values.yaml file.
