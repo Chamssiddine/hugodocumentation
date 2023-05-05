@@ -1,0 +1,24 @@
+---
+title: "IAM GKE"
+date: 2023-01-14T13:56:27+01:00
+draft: false
+---
+
+1. create iam role
+
+Create a new IAM role with the appropriate permissions for your developer. For example, you can use the roles/container.developer predefined role, which grants permissions to deploy and manage Kubernetes resources, but does not allow access to cluster administration. You can create a new role using the following command:
+
+```bash
+gcloud iam roles create developer \
+  --project=remotedevenv-383413 \
+  --title="Developer Role" \
+  --description="Custom role for GKE developers" \
+  --permissions=container.clusters.create,container.clusters.update,container.clusters.get,container.clusters.list,container.clusters.getIamPolicy,container.clusters.setIamPolicy,container.operations.list,container.operations.get,container.operations.cancel
+```
+2. Assign the IAM role to your developer. You can do this by running the following command:
+```bash 
+gcloud projects add-iam-policy-binding remotedevenv-383413 \
+  --member=user:chamseddine.abderrahim@gmail.com \
+  --role=projects/remotedevenv-383413/roles/developer
+
+```
