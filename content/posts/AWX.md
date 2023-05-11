@@ -3,8 +3,8 @@ title: "AWX"
 date: 2023-01-17T14:56:04+01:00
 draft: false
 ---
-
-# How to install AWX using kubernetes operator
+# AWX
+## How to install AWX using kubernetes operator
 To install AWX using Kubernetes Operator, follow these steps:
 
 1. Navigate to the awx-operator directory:
@@ -40,7 +40,7 @@ kubectl get pods -n awx -w
 ```
 
 # How to Integrate Keycloak with AWX
-
+## AWX SIDE
 1. Navigate to setttings -> Miscellaneous System settings
 
 2. Edit Base URL of the service to your base URL or IP
@@ -129,7 +129,7 @@ $ curl -k -L http://AwxServiceIP/sso/metadata/saml/ > awx-keycloak.xml
 
 ```
 
-# Keycloak Side
+## Keycloak Side
 
 * Create Your REALM named: tower
 
@@ -150,9 +150,9 @@ terraform apply
 NOTE: Change the variable values inside variables.tf file to match your service url etc....
 
 * Verify the SSO is working
-
+![test](/verifyeverythingandtestsso.m4v)
 ![finishedtouches](/verifyeverythingandtestsso.m4v)
-
+# Use AWX to prepare your environment 
 * Adding Dynamic Inventory 
 
 * Adding Ansible Playbook
